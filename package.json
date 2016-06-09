@@ -1,19 +1,6 @@
 {
-  "name": "iv-devs.github.io",
-  "version": "1.0.0",
-  "description": "Servidor estatico ",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rocket4ce/iv-devs.github.io.git"
-  },
-  "author": "rocket4ce",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rocket4ce/iv-devs.github.io/issues"
-  },
-  "homepage": "https://github.com/rocket4ce/iv-devs.github.io"
+  "dependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2"
+  }
 }
