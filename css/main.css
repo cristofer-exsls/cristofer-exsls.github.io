@@ -30,7 +30,7 @@
 	}
 
 	ol li{
-	
+
 		font-size: 1.2em;
 		line-height: 1.8em;
 	}
@@ -277,7 +277,7 @@ blockquote{
 	.br-25{
 		border-radius: 25px;
 	}
-	
+
 	/* 2PX */
 	.br-t-l-2{
 		border-radius: 2px 0px 0px 0px;
@@ -314,7 +314,7 @@ blockquote{
 		-webkit-border-radius:  2px 0px 0px 2px;
 	}
 
-	
+
 	/* 5PX */
 	.br-t-l-5{
 		border-radius: 5px 0px 0px 0px;
@@ -344,7 +344,7 @@ blockquote{
 		-moz-border-radius:  0px 0px 5px 0px;
 		-webkit-border-radius:  0px 0px 5px 0px;
 	}
-	
+
 	/* 10PX */
 	.br-t-l-10{
 		border-radius: 10px 0px 0px 0px;
@@ -917,12 +917,12 @@ blockquote{
    ========================================================================== */
 	.is-sticky header{
 		z-index: 9999!important;
-	} 
-	
+	}
+
 
 	header{
 
-	} 
+	}
 
 	header nav {
 
@@ -937,7 +937,7 @@ blockquote{
 		border-bottom: 1px solid #fff;
 		color: #345ea8;
 	}
-	
+
 	header nav ul li a:hover{
 		border-bottom: 1px solid #fff;
 	}
@@ -992,15 +992,15 @@ blockquote{
 /* ==========================================================================
    Pie
    ========================================================================== */
-   
-   
-   
-   
-   
-   
+
+
+
+
+
+
 /* ==========================================================================
    Partners
-   ========================================================================== */   
+   ========================================================================== */
 
 .animate {
     -webkit-transition: all 0.3s ease-in-out;
@@ -1051,12 +1051,12 @@ blockquote{
   -webkit-transform: scale(1, 1); /* This is the scale for the normal size of the image.*/
   -webkit-transition-duration: 500ms;
   -webkit-transition-timing-function: ease-out;
- 
+
   /* Webkit for Mozila Firefox */
   -moz-transform: scale(1, 1);
   -moz-transition-duration: 500ms;
   -moz-transition-timing-function: ease-out;
- 
+
   /* Webkit for IE( Version: 11, 10 ) */
   -ms-transform: scale(1, 1);
   -ms-transition-duration: 500ms;
@@ -1068,12 +1068,12 @@ blockquote{
   -webkit-transform: scale(1.2, 1.2); /* This is the enlarged size scale of the image.*/
   -webkit-transition-duration: 500ms;
   -webkit-transition-timing-function: ease-out;
- 
+
   /* Webkit for Mozila Firefox */
   -moz-transform: scale(1.2, 1.2);
   -moz-transition-duration: 500ms;
   -moz-transition-timing-function: ease-out;
- 
+
   /* Webkit for IE( Version: 11, 10 ) */
   -ms-transform: scale(1.20, 1.20);
   -ms-transition-duration: 500ms;
