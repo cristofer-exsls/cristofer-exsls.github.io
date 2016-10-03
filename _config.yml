@@ -25,6 +25,8 @@ twitter_username: iv_devs
 github_username:  iv-devs
 design_username: rocket4ce
 
+analytics: UA-XXXXX-X
+
 # Build settings
 markdown: kramdown
 theme: minima
