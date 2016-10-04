@@ -57,7 +57,8 @@
             <div class="col-md-7">
                 <nav class="text-right p-t-25">
                     <ul>
-                        {% for my_page in site.pages %}
+                    	{% assign pages = site.pages | sort:"order"  %}
+                        {% for my_page in pages %}
                             {% if my_page.title %}
                                 {% if page.url == my_page.url %}
                                     <li class="active"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
