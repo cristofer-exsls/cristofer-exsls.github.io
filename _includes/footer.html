@@ -1,0 +1,77 @@
+<footer class="bg-gris p-t-50 p-b-20">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="text-center">
+          <img src="/img/logo-blanco.png">
+        </div>
+        <br>
+        <div class="p-t-10 text-center">
+          <p class="f-15 c-blanco">
+            <a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i> {{ site.email }}</a>
+          </p>
+          <p class="f-15 c-blanco">
+            © IV Devs 2016 - Design <a href="https://www.twitter.com/{{ site.design_username }}">@{{ site.design_username }}</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <ul class="sociales-footer">
+          <li>
+            <a href="#" class="f-15"> <i class="fa fa-facebook"></i>   Facebook</a>
+          </li>
+          <li>
+            <a href="http://joinslack.ivdevs.com" class="f-15"> <i class="fa fa-slack"></i>   Slack</a>
+          </li>
+          <li>
+           <a href="https://github.com/{{ site.github_username }}" class="f-15"> <i class="fa fa-github"></i>   Github</a>
+         </li>
+         <li>
+          <a href="https://twitter.com/{{ site.twitter_username }}" class="f-15"> <i class="fa fa-twitter"></i>   Twitter</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <a class="twitter-timeline" href="https://twitter.com/{{ site.twitter_username }}" data-widget-id="735704066873917443">Tweets por el @{{ site.twitter_username }}.</a>
+      <script>
+        ! function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+          p = /^http:/.test(d.location) ? 'http' : 'https';
+          if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + "://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        }(document, "script", "twitter-wjs");
+      </script>
+    </div>
+  </div>
+</div>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.sticky.js"></script>
+<script src="/js/main.js"></script>
+{% if site.analytics %}
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  (function(b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] =
+      function() {
+        (b[l].q = b[l].q || []).push(arguments)
+      });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = 'http://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+  }(window, document, 'script', 'ga'));
+  ga('create', '{{ site.analytics }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{% endif %}
