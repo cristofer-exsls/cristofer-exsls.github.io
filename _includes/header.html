@@ -49,7 +49,7 @@
         <div class="row p-b-15 p-t-15">
             <div class="col-md-5">
                 <div class="logo">
-                    <a href="/">
+                    <a href="/inicio">
                         <img class="img-responsive" src="/img/logo.png" alt="IVDevs comunidad de programadores de la iv región">
                     </a>
                 </div>
@@ -61,7 +61,9 @@
                         {% for my_page in pages %}
                             {% if my_page.title %}
                                 {% if page.url == my_page.url %}
-                                    <li class="active"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                                    <li class="active">
+                                        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                                    </li>
                                 {% else %}
                                     <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
                                 {% endif %}
