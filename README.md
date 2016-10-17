@@ -15,3 +15,11 @@ Esta configurado para utilizar sass como preprocesador de CSS pero es totalmete 
 ##Como subir un post al blog
 Para agregar un nuevo post, solo debes crear un archivo en la carpeta `_posts` con la siguiente convención de nombre `YYYY-MM-DD-name-of-post.md` y comienza a redactar tu post.
 Jekyll utiliza markdown para manejar los post. si no te manejas con markdown te recomiendo utilizar este [editor online](https://stackedit.io/editor)
+
+
+## Opción Docker
+Se ha incluído en el repositorio un Dockerfile.
+Para usar la imagen para desarrollo deben hacer dos cosas fundamentales:
+1. **Buildear la imagen**, para ello ingresar (en el mismo directorio del proyecto): `docker build -t ivdevs/web .`
+2. **Crear un container para trabajar**: Permaneciendo en el mismo directorio donde se encuentra el proyecto, ingresar `docker run -it --name ivdevsweb -v $(pwd):/home/ivdevs/web --net host ivdevs/web`
+3. Cuando ya hayas creado este container deberás ingresar: `docker start -ia ivdevsweb` cada vez que quieras trabajar con el.
