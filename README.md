@@ -20,6 +20,11 @@ Jekyll utiliza markdown para manejar los post. si no te manejas con markdown te 
 ## Opción Docker
 Se ha incluído en el repositorio un Dockerfile.
 Para usar la imagen para desarrollo deben hacer dos cosas fundamentales:
-1. **Buildear la imagen**, para ello ingresar (en el mismo directorio del proyecto): `docker build -t ivdevs/web .`
-2. **Crear un container para trabajar**: Permaneciendo en el mismo directorio donde se encuentra el proyecto, ingresar `docker run -it --name ivdevsweb -v $(pwd):/home/ivdevs/web --net host ivdevs/web`
-3. Cuando ya hayas creado este container deberás ingresar: `docker start -ia ivdevsweb` cada vez que quieras trabajar con el.
+
+1.  **Buildear la imagen**, para ello ingresar (en el mismo directorio del proyecto): `docker build -t ivdevs/web .`
+1. **Crear un container para trabajar**: Permaneciendo en el mismo directorio donde se encuentra el proyecto, ingresar:
+ `docker run -it --name ivdevsweb -v $(pwd):/home/ivdevs/web --net host ivdevs/web`
+ 
+Cuando ya hayas creado este container deberás ingresar: `docker start -ia ivdevsweb` cada vez que quieras trabajar con él.
+
+*Recuerda que al momento de ingresar por primera vez al container, debes correr **bundle install**.*
