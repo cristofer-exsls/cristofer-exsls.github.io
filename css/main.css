@@ -993,7 +993,9 @@ blockquote{
    Pie
    ========================================================================== */
 
-
+	footer .logo-footer{
+		width: 30%;
+	}
 
 
 
@@ -1084,4 +1086,18 @@ blockquote{
 
 .partner-item:hover .social-lists{
 	opacity: 1;
+}
+
+/************************************
+		POST
+*************************************/
+
+.post{
+	background: white;
+}
+.post a{
+	color:black;
+}
+.post a:hover{
+	color:#345ea8;
 }
