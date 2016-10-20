@@ -25,6 +25,8 @@ twitter_username: iv_devs
 github_username:  iv-devs
 design_username: rocket4ce
 
+permalink: /blog/:year/:month/:day/:title/
+
 analytics: UA-XXXXX-X
 
 gems:
