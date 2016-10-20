@@ -1096,8 +1096,12 @@ blockquote{
 	background: white;
 }
 .post a{
-	color:black;
+	color:#009cdc;
 }
 .post a:hover{
 	color:#345ea8;
+}
+.post p{
+	font-size: 1.1em;
+	text-align: justify;
 }
