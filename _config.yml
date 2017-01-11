@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   técnico de los profesionales del área TI, mediante meetups y eventos de desarrolladores
   para desarrolladores en La Serena, Coquimbo y sus alrededores.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "http://ivdevs.com" # the base hostname & protocol for your site
 twitter_username: iv_devs
 github_username:  iv-devs
 design_username: rocket4ce
