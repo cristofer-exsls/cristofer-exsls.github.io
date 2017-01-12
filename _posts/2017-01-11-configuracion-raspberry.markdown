@@ -28,9 +28,9 @@ Si no tienes ni teclado ni mouse USB debes conectar la Raspberry a Ethernet para
 
 ## [](#conectar)Conectar la Raspberry
 
-Conecta la Raspberry a cualquier fuente de energia de 5V con una intensidad de entre 750mA a 2.5A. A veces funciona con 0.5mA pero como minimo se recomienda 1A para evitar fallas en la escritura de la SD y otros problemas asociados, algunos se documentan en [R-Pi Troubleshooting, Power Section](http://elinux.org/R-Pi_Troubleshooting#Power_.2F_Start-up).
+Conecta la Raspberry a cualquier fuente de energia de 5V con una intensidad de entre 750mA a 2.5A. A veces funciona con 0.5mA pero como mínimo se recomienda 1A para evitar fallas en la escritura de la SD y otros problemas asociados, algunos se documentan en [R-Pi Troubleshooting, Power Section](http://elinux.org/R-Pi_Troubleshooting#Power_.2F_Start-up).
 
-Necesitas la direccion IP de tu Raspberry, si no conoces la direccion IP puedes puedes usar una herramienta para esto:
+Necesitas la dirección IP de tu Raspberry, si no conoces la dirección IP puedes puedes usar una herramienta para esto:
 
 * Android
 
@@ -57,7 +57,7 @@ Luego debes iniciar sesión. Abre una conexión SSH a la raspberry:
 
   Instala [ConnectBot](https://play.google.com/store/apps/details?id=org.connectbot)
   
-Luego de abrir la conexion ingresa los datos (si no ingresaste el usuario antes, ahora te preguntará):
+Luego de abrir la conexión ingresa los datos (si no ingresaste el usuario antes, ahora te preguntará):
 
 * El usuario es
 
@@ -69,7 +69,7 @@ Luego de abrir la conexion ingresa los datos (si no ingresaste el usuario antes,
   
 ## [](#configurar)Configuración Básica
 
-Estos son los pasos que debes seguir para configurar la raspberry, si usas la version grafica abre una terminal y escribe:
+Estos son los pasos que debes seguir para configurar la raspberry, si usas la versión gráfica abre una terminal y escribe:
 
 * Ampliar la partición
   
@@ -77,9 +77,9 @@ Estos son los pasos que debes seguir para configurar la raspberry, si usas la ve
   sudo raspi-config
   ```
   
-  Luego usas la opcion `Expand Filesystem` que sirve para ampliar la particion al tamaño del la tarjeta SD
+  Luego usas la opción `Expand Filesystem` que sirve para ampliar la partición al tamaño del la tarjeta SD
   
-* Elimina el software innecesario (solo en version grafica, en lite pasar a actualizar)
+* Elimina el software innecesario (solo en versión gráfica, en lite pasar a actualizar)
   
   ```
 sudo apt-get purge claws-mail gpicview xpdf raspberrypi-artwork bluej greenfoot idle* pypy pypy-lib debian-reference-en debian-reference-common dillo epiphany-browser gvfs* libservlet2.5-java netsurf-* zenity* libreoffice* minecraft-pi nodered nuscratch penguinspuzzle python-minecraftpi python-pygame python3-pgzero python3-piface* python3-pygame python3-uno scratch sense-hat smartsim sonic-pi timidity wolfram-engine
@@ -112,7 +112,7 @@ sudo apt-get purge claws-mail gpicview xpdf raspberrypi-artwork bluej greenfoot 
   
 * Cambiar la configuración del usuario
 
-  Para cambiar el usuario por defecto debes conectarte como superusuario, para eso hay que habilitar la opcion en la configuración del servidor SSH.
+  Para cambiar el usuario por defecto debes conectarte como superusuario, para eso hay que habilitar la opción en la configuración del servidor SSH.
   
   Abre el fichero de configuración
   
