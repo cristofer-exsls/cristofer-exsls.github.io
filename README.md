@@ -1,7 +1,7 @@
 #IV Devs Website
 ## Descripción
 El proyecto basado en [jekyll](https://jekyllrb.com/), por lo que usa ruby el manejo de templates.
-Esta configurado para utilizar sass como preprocesador de CSS pero es totalmete opcional, el resto es HTML5 y JS.
+Está configurado para utilizar sass como preprocesador de CSS pero es totalmete opcional, el resto es HTML5 y JS.
 
 ##Requesitos
 -[ruby-lang](https://www.ruby-lang.org/es/)
