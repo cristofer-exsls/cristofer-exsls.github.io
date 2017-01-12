@@ -1,6 +1,14 @@
+---
+layout: post
+title:  "Configuración de Raspberry Pi 3"
+date:   2017-01-11 00:00:00 -0300
+categories: raspberry configuration tutorial
+author: Arie
+author_tw: arie_cwhat
+author_fb: arie.cwhat
+author_gh: arie-cwhat
+---
 # Configuración de Raspberry Pi 3
-
-Por [arie-cwhat](https://github.com/arie-cwhat/Tutorials/blob/master/Configuracion%20Raspberry.md)
 
 [![Raspberry](https://www.raspberrypi.org/wp-content/uploads/2014/03/plug-in-website.gif)](https://www.raspberrypi.org/help/)
 
