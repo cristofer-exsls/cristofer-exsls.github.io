@@ -13,7 +13,7 @@ Aprende como crear tu primer post en el blog de la comunidad, y también aprende
 <!--more-->
 
 Hoy enseñaremos como crear un post en el blog de la comunidad y aportar a está.  
-Primero realizaremos un fork al repositorio de [IV Devs](http://iv-devs.github.io/), accediendo en el siguiente link  <https://github.com/iv-devs/iv-devs.github.io>  
+Primero realizaremos un fork al repositorio de [IV Devs](http://iv-devs.github.io/), accediendo en el siguiente link <https://github.com/iv-devs/iv-devs.github.io>  
 ![Fotografía 1](http://image.prntscr.com/image/89faeea66ca54e32a44fa92ada6a2299.png)  
 ![Fotografía 2](http://image.prntscr.com/image/da7b59b68cd2438b8b5896a029796f1c.png)  
 Luego de haber hecho el fork, clonamos el repositorio en nuestro computador o laptop e ingresamos a la carpeta creada  
@@ -147,15 +147,15 @@ Como hacer citas
 > Esto es parte de la primera cita
 ```
 Dos formas de ingresar imágenes, la primera como mostrar una foto con titulo  
-![Texto representativo](http://localhost:4000/img/logo.png "titulo")
+![Texto representativo](http://ivdevs.com/img/logo.png "titulo")
 ```
-![Texto representativo](http://localhost:4000/img/logo.png "titulo")
+![Texto representativo](http://ivdevs.com/img/logo.png "titulo")
 ```
 
 Segunda forma sin titulo  
-![Texto representativo](http://localhost:4000/img/logo.png)
+![Texto representativo](http://ivdevs.com/img/logo.png)
 ```
-![Texto representativo](http://localhost:4000/img/logo.png)
+![Texto representativo](http://ivdevs.com/img/logo.png)
 ```
 
 Finalmente como subir estos cambios al blog  
@@ -194,4 +194,15 @@ git push origin master
 ```
 
 Al final deberia aparecer algo como la imagen siguiente:  
-![Fotografía 7]()  
+![Fotografía 7](http://image.prntscr.com/image/014f626a5de446faadf1d19ff3f03c4c.png)  
+
+Luego de haber realizado esto deberemos entrar en el respositorio de la pagina web de iv-devs que esta en su cuenta.  
+
+Cuando nos situemos en la página iremos a pull request (Estara remarcada en rectangulo rojo)  
+![Fotografía 8](http://image.prntscr.com/image/097e09137645408a8b8088830796e66b.png)
+
+Nos aparecera una página como la de la fotografía y deberemos dar clic a create pull request.  
+![Fotografía 9](http://image.prntscr.com/image/ef4a2762e3504ab4941adb719d0b368a.png)
+
+Luego de todo eso, nos aparecera la siguiente pagina, y aqui deberemos ingresar un texto descriptivo de lo que realizamos o de que tratara nuesto post, cuando todo este listo daremos clic a Create pull request, y tan solo quedara a esperar a que acepten tu post!.  
+![Fotografía 10](http://image.prntscr.com/image/491d5058105943c293129ea2cde4ae24.png)
