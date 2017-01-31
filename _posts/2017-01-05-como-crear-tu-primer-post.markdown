@@ -2,7 +2,7 @@
 layout: post
 title:  "Aprende a crear tu primer post"
 date:   2017-01-05 05:30:24 -0300
-categories: crear primer post
+categories: crear primer post tutorial
 author: Hugo Páez Jiménez
 author_tw: DerKows
 author_fb: DerKow

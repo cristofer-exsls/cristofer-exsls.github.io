@@ -8,6 +8,10 @@ author_tw: arie_cwhat
 author_fb: arie.cwhat
 author_gh: arie-cwhat
 ---
+Aprende a configurar tu Raspberry Pi 3, para dejarla lo más optima posible.
+
+<!--more-->
+
 # Configuración de Raspberry Pi 3
 
 [![Raspberry](https://www.raspberrypi.org/wp-content/uploads/2014/03/plug-in-website.gif)](https://www.raspberrypi.org/help/)
