@@ -986,6 +986,9 @@ blockquote{
 	.page a:hover{
 		color:#7f4dee;
 	}
+	.page img{
+		max-width: 100%;
+	}
 
 
 
@@ -1104,4 +1107,7 @@ blockquote{
 .post p{
 	font-size: 1.1em;
 	text-align: justify;
+}
+.post img{
+	max-width: 100%;
 }
