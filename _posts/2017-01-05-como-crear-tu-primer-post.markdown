@@ -12,9 +12,11 @@ Aprende como crear tu primer post en el blog de la comunidad, y también aprende
 
 <!--more-->
 
+# Cómo obtener los archivo de la web de IV Devs
+
 Hoy enseñaremos como crear un post en el blog de la comunidad y aportar a está.  
 Primero realizaremos un fork al repositorio de [IV Devs](http://iv-devs.github.io/), accediendo en el siguiente link <https://github.com/iv-devs/iv-devs.github.io>  
-![Fotografía 1](http://image.prntscr.com/image/89faeea66ca54e32a44fa92ada6a2299.png)  
+![Fotografía 1](http://image.prntscr.com/image/c32bbb03391d4d0ba708bd0cdc9abcad.png)  
 ![Fotografía 2](http://image.prntscr.com/image/da7b59b68cd2438b8b5896a029796f1c.png)  
 Luego de haber hecho el fork, clonamos el repositorio en nuestro computador o laptop e ingresamos a la carpeta creada  
 ![Fotografía 3](http://image.prntscr.com/image/d701ab8478134d909b3a1ba4d7246bee.png)  
@@ -48,115 +50,102 @@ bundle exec jekyll serve
 Luego de ejecutar las instrucciones, podremos ingresar en el siguiente enlace <http://localhost:4000>  
 Ya teniendo todo esto listo, ahora solo queda vez algunos tips:  
 Como realizar un listado fácil, de estas dos formas:  
-1. Prueba 1
-2. Prueba 2
-3. Prueba 3  
-
 ```
  1. Prueba 1
  2. Prueba 2
  3. Prueba 3
 ```
 Otra forma es:  
-* Prueba 1
-* Prueba 2
-* Prueba 3
-
 ```
  * Prueba 1
  * Prueba 2
  * Prueba 3
 ```
 
+# Cómo utilizar markdown
+
 Como hacer cursiva:  
-*Texto con cursiva*
 ```
 *Texto con cursiva*
 ```
 
 Segunda forma de hacer cursiva:  
-_Texto con cursiva_
 ```
 _Texto con cursiva_
 ```
 
 Texto con negrita:  
-**Texto en negrita**
 ```
 **Texto en negrita**
 ```
 
 Segunda forma de hacer negrita:  
-__Texto en negrita__
 ```
 __Texto en negrita__
 ```
 
 Texto en negrita y cursiva:  
-***Texto en negrita y cursiva***
 ```
 ***Texto en negrita y cursiva***
 ```
 Segunda forma de hacer negrita y cursiva:  
-___Texto en negrita y cursiva___
 ```
 ___Texto en negrita y cursiva___
 ```
 
 Como realizar títulos para los post:  
 Títulos (h1)  
-# Título en h1
 ```
 # Título en h1
 ```
 Títulos (h2)  
-## Título en h2
 ```
 ## Título en h2
 ```
 Títulos (h3)  
-### Título en h3
 ```
 ### Título en h3
 ```
 
 Como ingresar un enlace a su post, existen varias formas   
 Forma 1:  
-[Texto a mostrar](http://ivdevs.com/ "texto al pasar el mouse")
 ```
 [Texto a mostrar](http://ivdevs.com/ "texto al pasar el mouse")
 ```
 Forma 2:  
-[Texto a mostrar](http://ivdevs.com/)
 ```
 [Texto a mostrar](http://ivdevs.com/)
 ```
 Forma 3:  
-<http://url>
 ```
 <http://url>
 ```
 
 Como hacer citas  
-> Esto es una cita
->> Esto es una cita sobre una cita
-> Esto es parte de la primera cita
 ```
 > Esto es una cita
 >> Esto es una cita sobre una cita
 > Esto es parte de la primera cita
 ```
 Dos formas de ingresar imágenes, la primera como mostrar una foto con titulo  
-![Texto representativo](http://ivdevs.com/img/logo.png "titulo")
 ```
 ![Texto representativo](http://ivdevs.com/img/logo.png "titulo")
 ```
 
 Segunda forma sin titulo  
-![Texto representativo](http://ivdevs.com/img/logo.png)
 ```
 ![Texto representativo](http://ivdevs.com/img/logo.png)
 ```
+
+Como colocar código
+```
+ ```
+ SELECT id, name, last_name
+ WHERE id = 1;
+ ```
+```
+
+# Cómo subir los cambios a producción
 
 Finalmente como subir estos cambios al blog  
 Primero deberemos agregar nuestros cambios con:  
@@ -206,3 +195,7 @@ Nos aparecera una página como la de la fotografía y deberemos dar clic a creat
 
 Luego de todo eso, nos aparecera la siguiente pagina, y aqui deberemos ingresar un texto descriptivo de lo que realizamos o de que tratara nuesto post, cuando todo este listo daremos clic a Create pull request, y tan solo quedara a esperar a que acepten tu post!.  
 ![Fotografía 10](http://image.prntscr.com/image/491d5058105943c293129ea2cde4ae24.png)
+
+# Últimas Palabras
+
+Cómo cierre al tema central de este post, esto se utiliza en varias webs, hasta en git al realizar los readme.md, etc. además enseñamos lo básico de como enviar cambios, obtener los archivos de un repositorio, estaremos al 100% para poder contribuir a los diferentes repositorios que hay en GitHub en este momento y por qué no, también en nuestro repositorio donde se encuentra la web de IV Devs y otros que se podrían estar realizando con el tiempo.
