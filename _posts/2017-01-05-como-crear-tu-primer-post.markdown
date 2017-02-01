@@ -30,7 +30,7 @@ Además, tendremos que crear una rama llamada post/nombre-del-post
 
 ![Fotografía 4](http://image.prntscr.com/image/e9d835a22f2648b782f7e921ad1a10a2.png)  
 
-Como siguiente paso creamos un archivo en la carpeta _posts, con la siguiente nomenclatura, YYYY-MM-DD-nombre-del-post.markdown, en el caso de este post, seria así “2017-01-05-como-crear-tu-primer-post.markdown”.  
+Como siguiente paso creamos un archivo en la carpeta _posts, con la siguiente nomenclatura, YYYY-MM-DD-nombre-del-post.markdown, en el caso de este post, seria así __`2017-01-05-como-crear-tu-primer-post.markdown`__.  
 
 ![Fotografía 5](http://image.prntscr.com/image/b0395bbb601749b0b1b32381b97847be.png)  
 
