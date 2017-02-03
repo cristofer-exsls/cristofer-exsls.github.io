@@ -1,3 +1,9 @@
+---
+layout: default
+title: Codigo Conducta
+order: 6
+permalink: /codigo-conducta/
+---
 ## **1. Propósito**
 
 Uno de los objetivos principales de la Comunidad IVDevs es ser **inclusiva** para el mayor número de contribuyentes, con la mayor diversidad de orígenes posibles. Como tal, estamos comprometidos a proporcionar un **ambiente agradable, seguro y acogedor para todos**, independientemente de su sexo, orientación sexual, capacidad, etnia, nivel socioeconómico, y religión (o falta de la misma).
