@@ -1112,3 +1112,48 @@ blockquote{
 .post img{
 	max-width: 100%;
 }
+/************************************
+		PRENSA
+*************************************/
+.prensa{
+	text-align: left;
+	font-size: 1.5em;
+	border-top: 3px solid #009CDC; 
+	margin: 10px 5px 10px 5px;
+	/*padding: 10px 20px 10px 20px;*/
+}
+
+.prensa a{
+	text-decoration: none;
+	color: inherit;
+	font-style: normal;
+	font-family: inherit;
+}
+
+.prensa a:hover{
+	color: inherit;
+}
+
+.prensa .img{
+	height: 200px;
+}
+
+.prensa .img img{
+	object-fit: cover;
+	width: 100%;
+  	height: 100%;
+}
+
+
+.prensa .titulo{
+	color: #345EA8;
+}
+.prensa time{
+	font-size: 0.8em;
+	color: gray;
+}
+
+.prensa .bajada {
+	font-size: 0.8em;
+}
+
