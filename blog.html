@@ -31,22 +31,46 @@ permalink: /blog/
           {% if post.image %}
             <a href="{{ post.url | prepend: site.baseurl }}" class="inner">
               <div class="img_post">
-                <img src="{{ site.baseurl }}/content/images/{{ post.image }}">
+                <img class="" src="{{ site.baseurl }}/content/images/{{ post.image }}">
+                <div name="gradiant" class="gradiant">
+                  <div class="txt f-30">
+                    <span class="f-15">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+                    {{ post.title | escape }}
+                    
+                  </div>
+
+                </div>
+                             
               </div>
             </a>
           {% endif %}
-          <h2 class="m-b-30">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-          </h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <p>
+         
+         
             {{ post.excerpt }}
-          </p>
+         
         </div>
         {% endfor %}
       
 
     </div>
   </div>
+
+<!-- 
+JS Que aplica degradado Random a cada img del blog
+ -->
+<script>
+  var colors = [' gradiant-cian', ' gradiant-azul', ' gradiant-morado'];
+  var divs = document.getElementsByName('gradiant');
+                  
+  console.log(divs[0]);
+
+  for (var i = 0; i < divs.length; i++) {
+    min = Math.ceil(0);
+    max = Math.floor(3);
+    var r = Math.floor(Math.random() * (max - min)) + min;
+    divs[i].className += colors[r];
+  }
+  
+</script>
 
 </div>

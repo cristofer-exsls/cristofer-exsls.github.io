@@ -10,6 +10,8 @@
   src: url('/assets/fonts/OpenSansCondensed.woff') format('woff');
 }
 
+
+
 /* ==========================================================================
    Generales
    ========================================================================== */
@@ -88,7 +90,7 @@ blockquote{
 	}
 	a{
 		color: #000;
-		font-family: 'Montserrat', sans-serif;
+		
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
 		-ms-transition: all 300ms ease;
@@ -781,3 +783,55 @@ blockquote{
 	font-size: 0.8em;
 }
 
+/*.test{
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,156,220,1)), url(../content/images/default.jpg);
+	height: 200px;
+}*/
+.img_post{
+	height: 200px;
+	width: 100%;
+}
+
+.img_post img{
+	object-fit: cover;
+	width: 100%;
+  	height: 100%;
+
+	/*position: absolute;*/
+	z-index: 10;
+	left: 0;
+	top: 0;
+}
+
+.gradiant-cian {
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,156,220,1)); 
+}
+
+.gradiant-azul {
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(52,94,168,1)); 
+}
+
+.gradiant-morado {
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(78,48,136,1)); 
+}
+
+
+.gradiant{
+	position: absolute;
+	height: inherit;
+	width: auto;
+	z-index: 20;
+	left: 15px;
+	right: 15px;
+	top: 0;
+}
+
+.txt{
+	font-family: 'OpenSansCondensed';
+	font-weight: 700;
+	position: absolute;
+	bottom: 0;
+	color: #FFF;
+	line-height: 1;
+	margin: 15px;
+}
