@@ -106,7 +106,7 @@ blockquote{
 		margin-bottom: 5px;
 	}
 	hr.divider-morado{
-		border-top:3px solid #7034e4;
+		border-top:3px solid #345EA8;
 	}
 
 	.row.sin-paddin {
@@ -588,7 +588,8 @@ blockquote{
    Contenido
    ========================================================================== */
 .contenidos{
-	/*background: url('../img/bg-slide.jpg') no-repeat;*/
+		
+
 }
 
 .somos-comunidad{
@@ -718,6 +719,17 @@ blockquote{
 	opacity: 1;
 }
 
+.partners div{
+	height: 120px;
+	padding: 20px;
+}
+
+.partners img{
+	object-fit: contain;
+	width: 100%;
+  	height: 100%;
+}
+
 /************************************
 		POST
 *************************************/
@@ -834,4 +846,33 @@ blockquote{
 	color: #FFF;
 	line-height: 1;
 	margin: 15px;
+}
+
+
+.img_bg img{
+	object-fit: cover;
+	width: 100%;
+  	height: 100%;
+
+	position: absolute;
+	z-index: -10;
+	left: 0;
+	top: 0;
+
+	/*FILTRO*/
+	 filter: grayscale(100%)blur(3px);
+	 /*filter: blur(3px);*/
+}
+
+.img_bg .gradiant{
+	/*position: absolute;*/
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+	left: 0;
+	right: 0;
+
+	background: linear-gradient(to bottom,
+	    rgba(255,255,255,0.7), 
+	    rgba(255,255,255,0.7)); 
 }
