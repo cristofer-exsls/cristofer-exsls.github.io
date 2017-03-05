@@ -1,49 +1,6 @@
-<header class="bg-gris">
-    <div class="container">
-        <div class="row p-t-5">
-            <div class="header-redes text-right">
-                <ul class="d-inline redes-sociales">
-                    <li class="d-inline p-r-15">
-                        <a href="https://www.facebook.com/groups/programadores.iv.region.chile/">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="d-inline p-r-15">
-                        <a href="http://joinslack.ivdevs.com">
-                            <i class="fa fa-slack"></i>
-                        </a>
-                    </li>
-                    <li class="d-inline p-r-15">
-                        <a href="https://twitter.com/iv_devs">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="d-inline p-r-15">
-                        <a href="https://github.com/iv-devs">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!--
-            <div class="header-login col-md-6">
-                <div class="text-right">
-                    <ul>
-                        <li class="d-inline p-l-15">
-                            <a href="#">
-                                <i class="fa fa-user-plus"></i> Registrate
-                            </a>
-                        </li>
-                        <li class="d-inline p-l-15">
-                            <a href="#">
-                                <i class="fa fa-sign-in"></i> Login@ce
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            -->
-        </div>
+<header>
+    <div class="container menu">
+        
         <div class="row p-b-15 p-t-15">
             <div class="col-md-2">
                 <div class="logo">
@@ -52,24 +9,23 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-10">
-                <nav class="text-right p-t-5">
-                    <ul>
+            
+                    
                     	{% assign pages = site.pages | sort:"order"  %}
                         {% for my_page in pages %}
                             {% if my_page.title %}
                                 {% if page.url == my_page.url %}
-                                    <li class="active">
+                                    <div class="col-md-2 text-center" >
                                         <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                                    </li>
+                                    </div>
                                 {% else %}
-                                    <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                                    <div class="col-md-2 text-center"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></div>
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
-                    </ul>
-                </nav>
-            </div>
-        </div>
+                   
+                
+        </div> <!-- ROW -->
+
     </div>
 </header>

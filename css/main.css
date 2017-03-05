@@ -20,7 +20,7 @@
 	---------------------------------------*/
 	body{
 		font-family: 'Open Sans', sans-serif;
-		background: #000;
+		background: #FFF;
 		font-weight: 300;
 	}
 	p{
@@ -82,7 +82,7 @@ blockquote{
 		list-style: none;
 	}
 	a{
-		color: #fff;
+		color: #000;
 		font-family: 'Montserrat', sans-serif;
 		-webkit-transition: all 300ms ease;
 		-moz-transition: all 300ms ease;
@@ -110,47 +110,36 @@ blockquote{
 		padding-right:0;
   	padding-left:0;
 	}
-	/*---------------------------------------
-		Colores
-	---------------------------------------*/
-	.bg-negro{
-		background: #000000;
-	}
-	.bg-gris{
-		background: #222222;
-	}
-	.divider{
-		border-top:1px solid  #3a3a3a;
-	}
+/*---------------------------------------
+	Colores
+---------------------------------------*/
+.c-azul		{ color: #345EA8;} 
+.bg-azul	{ background: #345EA8;}
 
-	.c-gris{
-		color: #222222;
-	}
+.c-cian		{ color: #009CDC;} 
+.bg-cian	{ background: #009CDC;}
 
-	.bg-blanco{
-		background: #fff;
-	}
-	.c-blanco{
-		color: #fff;
-	}
-	.bg-azul{
-		background: #345ea8;
-	}
-	.c-azul{
-		color: #345ea8;
-	}
-	.bg-morado{
-		background: rgba(30,10,85, 0.9);
-	}
-	.c-morado{
-		color: rgba(30,10,85, 0.9);
-	}
-	.bg-azul-oscuro{
-		background:#0d1b42;
-	}
-	.c-azul-oscuro{
-		color:#0d1b42;
-	}
+.bg-morado	{ background: #4E3088;}
+.c-morado	{ color: #4E3088;}
+
+.c-negro	{ color: #000000; }
+.bg-negro	{ background: #000000;}
+
+.c-gris		{ color: #393939; }
+.bg-gris	{ background: #393939;}
+
+.c-blanco	{ color: #fff;}
+.bg-blanco	{ background: #fff;}
+
+.divider	{ border-top:1px solid  #3a3a3a;}
+
+
+
+
+
+
+
+
 	/*---------------------------------------
 		Text
 	---------------------------------------*/
@@ -170,84 +159,41 @@ blockquote{
 	.text-justify{
 		text-align:justify;
 	}
-	/*---------------------------------------
-		Tamaño de fuentes
-	---------------------------------------*/
-	.f-10{
-		font-size: 10px;
-	}
-		.f-15{
-		font-size: 15px;
-	}
-		.f-20{
-		font-size: 20px;
-	}
-		.f-25{
-		font-size: 25px;
-	}
-		.f-30{
-		font-size: 30px;
-	}
-		.f-35{
-		font-size: 35px;
-	}
-		.f-40{
-		font-size: 40px;
-	}
-		.f-45{
-		font-size: 45px;
-	}
-		.f-50{
-		font-size: 50px;
-	}
-		.f-55{
-		font-size: 55px;
-	}
-		.f-60{
-		font-size: 60px;
-	}
-		.f-65{
-		font-size: 65px;
-	}
-		.f-70{
-		font-size: 70px;
-	}
-		.f-75{
-		font-size: 75px;
-	}
-		.f-80{
-		font-size: 80px;
-	}
-		.f-85{
-		font-size: 85px;
-	}
-		.f-90{
-		font-size: 90px;
-	}
+/*---------------------------------------
+	Tamaño de fuentes
+---------------------------------------*/
+.f-10{	font-size: 10px; }
+.f-15{	font-size: 15px; }
+.f-20{	font-size: 20px; }
+.f-25{	font-size: 25px; }
+.f-30{	font-size: 30px; }
+.f-35{	font-size: 35px; }
+.f-40{	font-size: 40px; }
+.f-45{	font-size: 45px; }
+.f-50{	font-size: 50px; }
+.f-55{	font-size: 55px; }
+.f-60{	font-size: 60px; }
+.f-65{	font-size: 65px; }
+.f-70{	font-size: 70px; }
+.f-75{	font-size: 75px; }
+.f-80{	font-size: 80px; }
+.f-85{	font-size: 85px; }
+.f-90{	font-size: 90px; }
 
-	/*---------------------------------------
-		Posiciones
-	---------------------------------------*/
-	.p-absolute{
-		position: absolute;
-	}
-	.p-relative{
-		position: relative;
-	}
-	.p-fixed{
-		position: fixed;
-	}
+/*---------------------------------------
+	Posiciones
+---------------------------------------*/
+.p-absolute{ position: absolute;	}
+.p-relative{ position: relative;	}
+.p-fixed{ position: fixed;	}
 
-	/*---------------------------------------
-		Display
-	---------------------------------------*/
-	.d-block{
-		display: block;
-	}
 
-	.d-inline{
-		display: inline-block;
-	}
+/*---------------------------------------
+	Display
+---------------------------------------*/
+.d-block{	display: block;	}
+
+.d-inline{	display: inline-block;	}
 
 	/*---------------------------------------
 		Overflow
@@ -916,6 +862,10 @@ blockquote{
 /* ==========================================================================
    Cabecera
    ========================================================================== */
+
+.menu{
+	background-color: #FFF;
+}
 	.is-sticky header{
 		z-index: 9999!important;
 	}
@@ -940,7 +890,7 @@ blockquote{
 	}
 
 	header nav ul li a:hover{
-		border-bottom: 1px solid #fff;
+		border-bottom: 1px solid #000;
 	}
 
 	header nav ul li a::before{
