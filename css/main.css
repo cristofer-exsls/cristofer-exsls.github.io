@@ -22,6 +22,7 @@
 		font-family: 'Open Sans', sans-serif;
 		background: #FFF;
 		font-weight: 300;
+		color: #000;
 	}
 	p{
 		font-weight: 300;
@@ -872,7 +873,7 @@ blockquote{
 
 
 	header{
-
+		border-bottom: 2px solid #345EA8;
 	}
 
 	header nav {
@@ -912,7 +913,7 @@ blockquote{
    Contenido
    ========================================================================== */
 .contenidos{
-	background: url('../img/bg-slide.jpg') no-repeat;
+	/*background: url('../img/bg-slide.jpg') no-repeat;*/
 }
 
 .somos-comunidad{
