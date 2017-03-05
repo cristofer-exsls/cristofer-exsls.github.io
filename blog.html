@@ -24,11 +24,17 @@ permalink: /blog/
 <div class="post">
   <div class="div container">
     <div class="row">
-      
 
-      <ul class="post-list col-md-8 col-md-push-2 m-t-50 m-b-40">
+      
         {% for post in site.posts %}
-        <li>
+        <div class="col-md-6">
+          {% if post.image %}
+            <a href="{{ post.url | prepend: site.baseurl }}" class="inner">
+              <div class="img_post">
+                <img src="{{ site.baseurl }}/content/images/{{ post.image }}">
+              </div>
+            </a>
+          {% endif %}
           <h2 class="m-b-30">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
           </h2>
@@ -36,9 +42,9 @@ permalink: /blog/
           <p>
             {{ post.excerpt }}
           </p>
-        </li>
+        </div>
         {% endfor %}
-      </ul>
+      
 
     </div>
   </div>
