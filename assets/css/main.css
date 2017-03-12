@@ -867,7 +867,7 @@ footer{
 	top: 0;
 
 	/*FILTRO*/
-	 filter: grayscale(100%)blur(3px);
+	 filter: grayscale(50%)blur(3px);
 	 /*filter: blur(3px);*/
 }
 
@@ -881,7 +881,7 @@ footer{
 	top: 0;
 
 	background: linear-gradient(to bottom,
-	    rgba(255,255,255,0.7), 
+	    rgba(255,255,255,0.5), 
 	    rgba(255,255,255,1)); 
 }
 
