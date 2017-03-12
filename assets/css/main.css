@@ -507,23 +507,6 @@ blockquote{
 	  }
 	}
 /* ==========================================================================
-   botones de carrusel
-========================================================================== */
-	.owl-dots{
-		text-align: center;
-	}
-	.owl-dot{
-			width: 44px;
-			height: 3px;
-			background: #ababab;
-			display: inline-block;
-			margin:0 10px;
-
-		}
-	.owl-dot.active{
-		background: #7f4dee;
-	}
-/* ==========================================================================
    Botones
 ========================================================================== */
 	.btn-gris{
@@ -893,3 +876,17 @@ footer{
 .rrss a{color: #345EA8}
 
 .rrss i { margin-top: 20px;  }
+
+
+
+/************************************
+	RRSS
+*************************************/
+.carousel-inner > .item {
+	height: 300px;
+}
+.carousel-inner > .item > img{
+	object-fit: cover;
+	width: 100%;
+  	height: 100%;
+}
