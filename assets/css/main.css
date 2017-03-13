@@ -523,6 +523,7 @@ blockquote{
 	font-size: 20px;
 	text-rendering: geometricPrecision;
 	border-bottom: 2px solid #345EA8;
+	margin: 0;
 }
 
 .logo{
@@ -890,3 +891,4 @@ footer{
 	width: 100%;
   	height: 100%;
 }
+
